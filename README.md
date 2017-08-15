@@ -52,7 +52,7 @@ for _, t := range times {
   })
 }
 
-if OneOf(funcs...) {
+if oneof.OneOf(funcs...) {
   fmt.Println("timeout reached")
 } else {
   fmt.Println("all functions completed successfully")
